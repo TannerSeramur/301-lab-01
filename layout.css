@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+main{
+    width: 100vw;
+}
 #a{
     width: 100vw;
     height: 75px;
