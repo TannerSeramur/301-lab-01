@@ -25,26 +25,31 @@ main{
     height: 125px;
     margin: 0 auto;
 }
+#container2{
+    display:flex;
+}
 
 #e{
     width: 50vw;
     height: 250px;
-    float:left;
 }
 #f{
     width: 50vw;
     height: 250px;
-    float:right;
+}
+
+#container3{
+    display:flex;
+    justify-content: center;
+    background-color:red;
 }
 #g{
     width: 50vw;
     height: 250px;
-    float:left;
 }
 #h{
     width: 50vw;
     height: 250px;
-    float:right;
 }
 #i{
     clear: both;
@@ -55,52 +60,60 @@ main{
 
 @media only screen and (min-width : 768px){
 
+
+    #big{
+        display: flex;
+        position: relative;
+        left:20%; 
+    }
+  #container1{
+        position: relative;
+        left:20%; 
+        display:flex;
+        width: 80%;
+    }
     #a{
         width: 100vw;
         height: 100px;
     }
     #b{
-        width: 20vw;
+        position: absolute;
+        width: 20%;
         height: 600px;
-        float:left;
     }
+  
     #c{
+        margin: 0;
+        padding: 0;
         width: 40vw;
         height: 200px;
-        float: left;
     }
     #d{
         width: 40vw;
         height: 200px;
-        float:right;
     }
-
 
     #e{
         width: 20vw;
         height: 250px;
-        float:left;
     }
     #f{
         width: 20vw;
         height: 250px;
-        float:left;
     }
     #g{
         width: 20vw;
         height: 250px;
-        float:left;
     }
     #h{
         width: 20vw;
         height: 250px;
-        float:right;
     }
     #i{
         clear: none;
-        width: 80vw;
+        width: 100vw;
         height: 150px;
-        float:right;
+
     }
 
 }
